@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--text);
+  transition: opacity var(--transition);
+}
+
+.logo:hover {
+  opacity: 0.9;
+}
+
+.logo__icon {
+  display: flex;
+  color: var(--accent);
+}
+
+.logo__text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.logo__accent {
+  color: var(--primary);
+}
