@@ -7,33 +7,29 @@ export default function Hero() {
       <div className="hero__bg" aria-hidden="true" />
       <div className="container hero__grid">
         <div className="hero__content animate-in">
-          <p className="hero__badge">Premium Tech · Local Experts</p>
+          {/* <p className="hero__badge">Premium Tech · Local Experts</p> */}
           <h1 className="hero__title">
             Everything Your Laptop Needs.
-            <span className="hero__title-accent"> All in One Place.</span>
+            <span className="hero__title-accent"> All in One Place</span>
           </h1>
-          <p className="hero__description">
-            Laptop Hub brings together top-tier laptops, essential accessories, and
-            professional maintenance under one roof. Whether you are upgrading, outfitting
-            your workspace, or getting expert care for your machine, we have you covered.
-          </p>
+
           <div className="hero__actions">
             <button
               type="button"
               className="btn btn--primary"
-              onClick={() => scrollToSection('laptops')}
+              onClick={() => scrollToSection("laptops")}
             >
               Explore Products
             </button>
             <button
               type="button"
               className="btn btn--secondary"
-              onClick={() => scrollToSection('services')}
+              onClick={() => scrollToSection("services")}
             >
               Our Services
             </button>
           </div>
-          <ul className="hero__stats">
+          {/* <ul className="hero__stats">
             <li>
               <strong>500+</strong>
               <span>Devices serviced</span>
@@ -46,15 +42,18 @@ export default function Hero() {
               <strong>24h</strong>
               <span>Fast turnaround</span>
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <div className="hero__visual animate-in" style={{ animationDelay: '0.15s' }}>
+        <div
+          className="hero__visual animate-in"
+          style={{ animationDelay: "0.15s" }}
+        >
           <div className="hero__image-wrap">
             <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop&q=85"
+              src="https://i.insider.com/5dd6b2c1fd9db252db09a3e3?width=2000&format=jpeg&auto=webp"
               alt="Modern laptop on a desk with ambient lighting"
-              width={800}
-              height={600}
+              width={500}
+              height={300}
               loading="eager"
             />
             <div className="hero__glow" aria-hidden="true" />
